@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body {
+  background: #25cf91;
+  background: linear-gradient(to top, #25cf91 0%, #45a8ff 100%);
+}
+
+.error {
+  display: none;
+}
+
+.weather {
+  display: none;
+}
