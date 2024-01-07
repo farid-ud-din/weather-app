@@ -3,15 +3,29 @@
   padding: 0;
 }
 
+body {
+  background-image: url(./images/diff-weathers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-body {
-  background: #25cf91;
-  background: linear-gradient(to top, #25cf91 0%, #45a8ff 100%);
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(0, 0, 0, 0.53);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 .error {
   display: none;
 }
 
-.weather {
-  display: none;
+.reference {
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: right;
 }
