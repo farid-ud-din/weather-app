@@ -3,10 +3,16 @@
   padding: 0;
 }
 
-body {
-  background-image: url(./images/diff-weathers.jpg);
+.hero {
+  background: url("./images/diff-weathers.jpg");
+  min-height: 100vh;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+}
+
+.heading {
+  text-shadow: 2px 2px 8px black;
 }
 
 .card-body {
